@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel.com | Contact Us</title>
+    <link rel="icon" href="../assets/img/logo-w.svg" type="image/icon type" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== main CSS ===============-->
+    <link rel="stylesheet" href="../../styles.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <travel-header></travel-header>
+    <main class="main">
+      <!--=========================== Home ==============================-->
+      <section class="sub-home" id="sub-home">
+        <img src="../assets/img/home1.webp" alt="" class="sub__home__img" />
+
+        <div class="sub__home__container">
+          <div class="sub__home__data">
+            <span class="sub__home__data-subtitle">Discover the world</span>
+            <h1 class="sub__home__data-title">Contact Us</h1>
+          </div>
+        </div>
+      </section>
+      <!--=========================== Contact Us ==============================-->
+      <section class="contact-us section" style="padding-top: 0">
+        <div class="contact__bg">
+          <div class="contact__container container">
+            <div class="form-container">
+              <span class="heading">Get in touch</span>
+              <div class="form">
+                <form>
+                  <input placeholder="Name" type="text" class="input" />
+                  <input
+                    placeholder="Email"
+                    id="mail"
+                    type="email"
+                    class="input"
+                    required
+                  />
+                  <textarea
+                    placeholder="Say Hello"
+                    rows="10"
+                    cols="30"
+                    id="message"
+                    name="message"
+                    class="textarea"
+                  ></textarea>
+                  <div class="button-container">
+                    <button
+                      type="submit"
+                      class="send-button"
+                      onclick="submitContactForm()"
+                    >
+                      Send
+                    </button>
+                    <div class="reset-button-container">
+                      <button type="reset" id="reset-btn" class="reset-button">
+                        Reset
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=========================== Map ==============================-->
+      <section class="map section">
+        <h2 class="section__title">Our Location</h2>
+        <div class="map__bg">
+          <div class="map__container container">
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7382.833743826122!2d114.16961399357906!3d22.3000686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400ef646de2a5%3A0x43755790396a351e!2sSCOPE%20TST%20East%20Learning%20Centre!5e0!3m2!1szh-TW!2shk!4v1702459094999!5m2!1szh-TW!2shk"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="addrees">
+              <div class="address__data">
+                <h2
+                  style="
+                    display: flex;
+                    color: white;
+                    margin: auto;
+                    justify-content: center;
+                  "
+                >
+                  Contact Information
+                </h2>
+                <hr style="background-color: #ccc" />
+                <p>
+                  <i class="ri-map-pin-5-fill"></i> 2410, 2/F, Li Dak Sum
+                  Yip,<br />
+                  Yio Chin Academic Building (LI), City University of Hong Kong,
+                  <br />
+                  Tat Chee Avenue, Kowloon, Hong Kong
+                </p>
+                <p>
+                  <i class="ri-phone-fill"></i
+                  ><span class="collig">Phone :</span> (852) 3442 7423
+                </p>
+                <p>
+                  <i class="ri-mail-open-fill"></i
+                  ><span class="collig">Email :</span> scope@cityu.edu.hk
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <travel-footer></travel-footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!-- =============== protobuf js ===============
+    <script
+      src="//cdn.jsdelivr.net/npm/protobufjs@7.2.5/dist/protobuf.min.js"
+      id="protobuf-script"
+    ></script> -->
+
+    <!--=============== Form js ===============-->
+    <script src="../assets/js/form.js"></script>
+
+    <!--=============== Header js REVEAL===============-->
+    <script src="../component/hearder.js"></script>
+
+    <!--=============== footer js REVEAL===============-->
+    <script src="../component/footer.js"></script>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="../assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../script.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/92e0fe9b51.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

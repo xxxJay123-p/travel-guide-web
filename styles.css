@@ -812,6 +812,7 @@ input {
 }
 
 .footer__rights {
+  z-index: 0;
   display: flex;
   flex-direction: column;
   row-gap: 1.5rem;
@@ -1193,95 +1194,50 @@ input {
 }
 
 /*=============== lang menu ===============*/
-.lang__cont {
-  width: 100%;
-  background-color: var(--first-color);
+/* .lang-button-wrapper {
+  display: block;
+  flex-direction: column;
 }
 
-.lang-menu {
-  color: #000;
-  width: 100%;
+.lang-btn {
+  padding: 10px 15px;
+  font-size: var(--button-text);
   font-weight: bold;
-  margin-top: 25px;
-  position: relative;
-}
-.lang-menu .selected-lang {
-  display: flex;
-  justify-content: space-between;
-  line-height: 2;
+  border: 2px solid transparent;
   cursor: pointer;
 }
-.lang-menu .selected-lang:before {
-  content: "";
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  background-image: url(https://www.countryflags.io/us/flat/32.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
-.lang-menu ul {
-  margin: 0;
-  padding: 0;
+.dropdown-content {
   display: none;
-  background-color: #fff;
-  border: 1px solid #f8f8f8;
+  font-size: 13px;
   position: absolute;
-  top: 45px;
-  right: 0px;
-  width: 125px;
-  border-radius: 5px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  min-width: 200px;
+  border-radius: 0px 5px 5px 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.lang-menu ul li {
-  list-style: none;
-  text-align: left;
-  display: flex;
-  justify-content: space-between;
-}
-
-.lang-menu ul li a {
+.dropdown-content a {
+  color: var(--first-color);
+  padding: 8px 10px;
   text-decoration: none;
-  width: 125px;
-  padding: 5px 10px;
   display: block;
+  transition: 0.1s;
 }
 
-.lang-menu ul li:hover {
-  background-color: #f2f2f2;
+.dropdown-content a:hover {
+  background-color: var(--first-color-second);
+  color: var(--button-background);
 }
 
-.lang-menu ul li a:before {
-  content: "";
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  vertical-align: middle;
-  margin-right: 10px;
-  background-size: contain;
-  background-repeat: no-repeat;
+.dropdown-content a:focus { 
+  color: var(--first-color-second);
+  background-color: var(--button-background);
 }
 
-.de:before {
-  background-image: url(https://www.countryflags.io/de/flat/32.png);
-}
-
-.en:before {
-  background-image: url(https://www.countryflags.io/us/flat/32.png);
-}
-.fr:before {
-  background-image: url(https://www.countryflags.io/fr/flat/32.png);
-}
-
-.ar:before {
-  background-image: url(https://www.countryflags.io/ae/flat/32.png);
-}
-
-.lang-menu:hover ul {
+.lang-button-wrapper:hover .dropdown-content {
   display: block;
-}
+} */
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
