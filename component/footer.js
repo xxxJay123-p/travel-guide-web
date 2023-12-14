@@ -24,11 +24,7 @@ class travelFooter extends HTMLElement {
               >
                 <i class="ri-facebook-box-fill"></i>
               </a>
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                class="footer__social"
-              >
+              <a href="https://twitter.com/" target="_blank" class="footer__social">
                 <i class="ri-twitter-fill"></i>
               </a>
               <a
@@ -47,7 +43,7 @@ class travelFooter extends HTMLElement {
               </a>
             </div>
           </div>
-
+    
           <div class="footer__data">
             <h3 class="footer__subtitle">About</h3>
             <ul>
@@ -59,7 +55,7 @@ class travelFooter extends HTMLElement {
               </li>
             </ul>
           </div>
-
+    
           <div class="footer__data">
             <h3 class="footer__subtitle">Company</h3>
             <ul>
@@ -71,7 +67,7 @@ class travelFooter extends HTMLElement {
               </li>
             </ul>
           </div>
-
+    
           <div class="footer__data">
             <h3 class="footer__subtitle">Support</h3>
             <ul>
@@ -87,21 +83,9 @@ class travelFooter extends HTMLElement {
             </ul>
           </div>
         </div>
-
-        <!-- <section class="lang__cont">
-          
-        </section> -->
-        <!-- <div class="lang-button-wrapper">
-          <button class="button lang-btn">Language &nbsp; ▼</button>
-          <div class="dropdown-content">
-            <a id="top" href="#">Keep source formatting</a>
-            <a id="middle" href="#">Merge formatting</a>
-            <a id="bottom" href="#">Keep text only</a>
-          </div>
-        </div> -->
-
+    
         <div class="footer__rights">
-          <p class="footer__copy">&#169; 2024 JayCheng. All rigths reserved.</p>
+          <p class="footer__copy">&#169; 2024 JayCheng. All rights reserved.</p>
           <div class="footer__terms">
             <a href="#" class="footer__terms-link">Terms & Agreements</a>
             <a href="#" class="footer__terms-link">Privacy Policy</a>
