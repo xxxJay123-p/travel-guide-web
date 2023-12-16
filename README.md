@@ -3,6 +3,8 @@
 ## Demo-Link:
 [Link -- Travel Guide Web](https://xxxjay123-p.github.io/travel-guide-web/)
 
+[cloudflare -to host](https://travel-guide-web.pages.dev/)
+
 
 ## Reference:
 
